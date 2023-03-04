@@ -1,0 +1,16 @@
+:root {
+    --background-color: #373f51;
+    --card-bg: #fbfffe;
+    --card-red: #f71735;
+    --card-black: #313638;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: var(--background-color);
+}
