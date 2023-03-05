@@ -1,5 +1,5 @@
 :root {
-    --background-color: #373f51;
+    --bg-color: #373f51;
     --card-bg: #fbfffe;
     --card-red: #f71735;
     --card-black: #313638;
@@ -11,6 +11,21 @@
     box-sizing: border-box;
 }
 
-main {
-    background-color: var(--background-color);
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-container {
+    width: 192px;
+    height: 288px;
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
+    -moz-box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
 }
