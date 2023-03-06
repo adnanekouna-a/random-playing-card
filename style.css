@@ -3,6 +3,7 @@
     --card-bg: #fbfffe;
     --card-red: #f71735;
     --card-black: #313638;
+    --number-font: 'Roboto Slab', serif;
 }
 
 * {
@@ -28,4 +29,27 @@ body {
     box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
     -webkit-box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
     -moz-box-shadow: 1px -1px 26px -7px rgba(0,0,0,0.8);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-number {
+    font-family: var(--number-font);
+    color: var(--card-red);
+    font-size: 3rem;
+}
+
+#card-number-top {
+    position: relative;
+    bottom: 0.2em;
+    right: 1.45em;
+}
+
+#card-number-bottom {
+    position: relative;
+    top: 0.2em;
+    left: 1.45em;
 }

@@ -5,15 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Random Playing Card</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://kit.fontawesome.com/48b420fa8f.css" crossorigin="anonymous" />
 	</head>
 	<body>
 		<div id="card-container">
-			<div class="card-number"></div>
+			<p id="card-number-top" class="card-number">K</p>
 			<!-- Suit icon below -->
-			<i class="fa-solid fa-heart" id="card-suit"></i>
-			<div class="card-number reversed"></div>
+			<img src="img/heart.svg" alt="Card Suit" height="130" width="130" />
+			<p id="card-number-bottom" class="card-number">K</p>
 		</div>
 	</body>
 </html>
