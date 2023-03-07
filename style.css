@@ -52,4 +52,5 @@ body {
     position: relative;
     top: 0.2em;
     left: 1.45em;
+    transform: rotate(180deg);
 }
