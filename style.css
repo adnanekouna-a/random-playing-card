@@ -38,7 +38,7 @@ body {
 
 .card-number {
     font-family: var(--number-font);
-    color: var(--card-red);
+    color: var(--card-black);
     font-size: 3rem;
 }
 
