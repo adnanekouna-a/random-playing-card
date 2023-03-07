@@ -2,22 +2,22 @@
 const heart = {
     name: "heart",
     size: 130,
-    color: "var(--card-red)"
+    color: "#f71735"
 }
 const diamond = {
     name: "diamond",
     size: 120,
-    color: "var(--card-red)"
+    color: "#f71735"
 }
 const club = {
     name : "club",
     size: 110,
-    color: "var(--card-black)"
+    color: "#313638"
 }
 const spade = {
     name: "spade",
     size: 100,
-    color: "var(--card-red)"
+    color: "#313638"
 }
 
 // Card variables
@@ -39,3 +39,7 @@ card.number = numbers[Math.floor(Math.random()*numbers.length)]
 
 // DOM manipulation
 cardSuitIcon.setAttribute("src", `img/${card.suit.name}.svg`)
+cardNumberTop.textContent = card.number
+cardNumberBottom.textContent = card.number
+cardNumberTop.style.color = card.suit.color
+cardNumberBottom.style.color = card.suit.color
