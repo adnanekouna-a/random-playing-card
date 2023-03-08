@@ -3,7 +3,7 @@
     --card-bg: #fbfffe;
     --card-red: #f71735;
     --card-black: #313638;
-    --number-font: 'Roboto Slab', serif;
+    --number-font: 'Cardo', serif;
 }
 
 * {
@@ -38,8 +38,10 @@ body {
 
 .card-number {
     font-family: var(--number-font);
+    font-weight: 700;
     color: var(--card-black);
     font-size: 3rem;
+    letter-spacing: -0.25rem;
 }
 
 #card-number-top {
