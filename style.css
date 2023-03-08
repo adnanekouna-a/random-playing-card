@@ -21,6 +21,28 @@ body {
     justify-content: center;
 }
 
+#theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 35px;
+    width: 35px;
+    background-color: var(--card-bg);
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theme-icon {
+    transition: opacity 0.2s ease-out;
+}
+
+#theme-toggle:hover > #theme-icon{
+    opacity: 0;
+}
+
 #card-container {
     width: 192px;
     height: 288px;
