@@ -78,3 +78,11 @@ body {
     left: 1.45em;
     transform: rotate(180deg);
 }
+
+.light-theme{
+    background-color: var(--card-bg);
+}
+
+#theme-toggle.light-theme{
+    background-color: var(--bg-color);
+}

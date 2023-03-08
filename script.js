@@ -43,3 +43,11 @@ cardNumberTop.textContent = card.number
 cardNumberBottom.textContent = card.number
 cardNumberTop.style.color = card.suit.color
 cardNumberBottom.style.color = card.suit.color
+
+// Light theme
+const themeToggle = document.getElementById("theme-toggle")
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("light-theme");
+    themeToggle.classList.toggle("light-theme");
+})
