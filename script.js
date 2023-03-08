@@ -46,8 +46,14 @@ cardNumberBottom.style.color = card.suit.color
 
 // Light theme
 const themeToggle = document.getElementById("theme-toggle")
+const themeIcon = document.getElementById("theme-icon")
 
 themeToggle.addEventListener("click", () => {
     document.body.classList.toggle("light-theme");
     themeToggle.classList.toggle("light-theme");
+    if(themeToggle.classList.contains("light-theme")){
+        themeIcon.setAttribute("src", "img/theme/light.svg")
+    } else {
+        themeIcon.setAttribute("src", "img/theme/dark.svg")
+    }
 })
